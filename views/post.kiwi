@@ -1,0 +1,15 @@
+{{include "header"}}
+
+<p>Welcome {{username}}<p>
+
+<div class="makepost centered">
+	<form action="/admin/post">
+		<div>
+			<p>Title</p>
+			<input id="title" name="title" type="text" required placeholder="Title">
+			<input id="message" name="message" type="text" required placeholder="Type in your message!">
+		<div>
+	</form>
+</div>
+
+{{include "footer"}}

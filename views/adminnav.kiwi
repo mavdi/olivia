@@ -1,0 +1,5 @@
+<ul class="adminnav">
+	<li><a href="/admin?action=new-post">New Post</a></li>
+	<li><a href="/admin?action=manage-posts">Manage Posts</a></li>
+	<li><a href="/admin?action=logout">Log out</a></li>
+<ul>

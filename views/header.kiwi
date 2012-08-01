@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mehdi Avdi</title>
+		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+		<link href='/assets/css/main.css' rel='stylesheet' type='text/css'>
+		{{if admin}}
+		<link href='/assets/css/admin.css' rel='stylesheet' type='text/css'>
+		{{/if}}
+
+	</head>
+	<body>
+		<div class="container">
+

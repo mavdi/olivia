@@ -1,0 +1,40 @@
+body {
+	color : #333333;
+	background-color : #efefef;
+	font-family: 'Oxygen', sans-serif;
+}
+
+a {
+	color : #333333;
+	text-decoration : none;
+}
+
+a:hover {
+	color : #666666;
+}
+
+input, button, textarea {
+	border : 1px solid #cccccc;
+			
+}
+
+div.main {
+	width : 100%;
+	max-width : 940px;
+}
+
+div.centered {
+	margin : 0px auto;
+}
+
+ul.menu {
+	list-style : none;
+}
+
+div.post {
+	margin : 1em 0;
+	padding : 0 1em;
+	border : 1px solid #cccccc;
+	background-color : #eeeeee;
+}
+

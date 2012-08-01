@@ -1,0 +1,43 @@
+div.login .post {
+	border : 1px solid #cccccc;
+	width : 250px;
+	overflow : auto;
+	padding : 0.5em;
+}
+
+div.make-post { 
+	width : 500px;
+}
+
+div.make-post input {
+	width : 100%;
+}
+
+div.make-post textarea { 
+	width : 100%;
+	min-height : 300px;
+}
+
+div.login {
+	width : 300px;
+}
+
+div.login form {
+}
+
+div.login div {
+	clear : both;
+	padding-top : 0.5em;
+}
+
+div.login input {
+	float : right; 
+}
+
+div.login label {
+	float: left;
+}
+
+div.login button {
+	float : right;
+}

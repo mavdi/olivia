@@ -1,0 +1,17 @@
+{{include "header"}}
+	<div class="centered login">
+		<form action="/admin" method="post">
+			<div>
+				<label for="username">Username </label>
+				<input id="username" name="username" type="text" placeholder="Username" required autofocus>
+			</div>
+			<div>
+				<label for="username">Password</label>
+				<input id="password" name="password" type="password" placeholder="Password" required>
+			</div>
+			<div>
+				<button type="submit">Log in</button>
+			</div>
+		</form>
+	</div>
+{{include "footer"}}
