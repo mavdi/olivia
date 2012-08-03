@@ -1,0 +1,20 @@
+{{include "header"}}
+{{include "adminnav"}}
+	<div class="main centered">
+	{{each posts}}
+		<div class="manage-post">
+			<div class="config">
+				<spain>${$value.date.toDateString()}</span>
+				<ul class="actions">
+					<li><a href=javascript:void()">Edit</a></li>
+					<li><a href="javascript:void()">Remove</a></li>
+				<ul>
+			</div>
+			<div class="post-body">
+				<h1>${$value.title}</h1>
+				<p>${$value.content}</p>
+			</div>
+		</div>
+	{{/each}}
+	</div>
+{{include "footer"}}
