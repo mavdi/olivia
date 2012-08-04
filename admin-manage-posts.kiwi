@@ -1,0 +1,17 @@
+{{include "header"}}
+{{include "adminnav"}}
+	<div class="centered make-post">
+		<form action="/admin/post" method="post">
+			<div>
+				<label for="title">Title </label>
+				<input id="title" name="title" type="text" placeholder="Title" required autofocus>
+			</div>
+			<div>
+				<textarea id="content" name="content" placeholder="Content" required ></textarea>
+			</div>
+			<div>
+				<button type="submit">Post</button>
+			</div>
+		</form>
+	</div>
+{{include "footer"}}
