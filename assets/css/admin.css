@@ -5,6 +5,35 @@ div.login .post {
 	padding : 0.5em;
 }
 
+div.manage-post {
+	margin-bottom : 1em;
+	border : 1px solid #cccccc;
+}
+
+div.manage-post .config {
+	background-color : #5555ee;
+	border : 1px solid #2222cc;
+	color : #efefef;
+	overflow : auto;
+	padding : 10px;
+}
+
+div.manage-post .actions {
+	list-style-type : none;
+	float : right;
+}
+
+div.manage-post .actions li {
+	display : inline;
+	padding-right : 1em;
+}
+
+div.manage-post .action a {
+}
+
+div.manage-post .actions a:hover {
+}
+
 div.make-post { 
 	width : 500px;
 }
