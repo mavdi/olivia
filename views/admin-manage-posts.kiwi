@@ -6,8 +6,8 @@
 			<div class="config">
 				<spain>${$value.date.toDateString()}</span>
 				<ul class="actions">
-					<li><a href=javascript:void()">Edit</a></li>
-					<li><a href="javascript:void()">Remove</a></li>
+					<li><a onclick="postHandler.editPost();" href=javascript:void()">Edit</a></li>
+					<li><a onclick="postHandler.removePost();" href="javascript:void()">Remove</a></li>
 				<ul>
 			</div>
 			<div class="post-body">

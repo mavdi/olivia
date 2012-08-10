@@ -14,6 +14,7 @@ app.configure(function() {
 		app.set("view", __dirname + "/views");
 		app.set("view engine", "kiwi");
 		app.use("/assets", express.static(__dirname + "/assets"));
+		app.use("/scripts", express.static(__dirname + "/scripts"));
 		app.use(express.bodyParser());
 		app.use(express.cookieParser());
 		app.locals.admin = false;		
