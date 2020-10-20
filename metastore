@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T15:01:13.670Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" version="13.8.1" etag="ZZiIcDLN01UvZp-b5Mfz" type="github"><diagram id="hLNlnzcZ3RcsNf_yZJ4T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-20T15:29:08.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="aeVqUOo1j3WPPuV-LX9S" version="13.8.1" type="github">
+  <diagram id="hLNlnzcZ3RcsNf_yZJ4T" name="Page-1">
+    <mxGraphModel dx="1244" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-1" target="FLH3N4Q0RpkNor29CAH5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-1" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-2" target="FLH3N4Q0RpkNor29CAH5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-2" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-4" target="FLH3N4Q0RpkNor29CAH5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-16" value="Unique list of keys and file name" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FLH3N4Q0RpkNor29CAH5-13">
+          <mxGeometry x="-0.0222" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-4" value="Glue Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-7" value="File added event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-6" target="FLH3N4Q0RpkNor29CAH5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-6" value="S3&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-8" target="FLH3N4Q0RpkNor29CAH5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-8" target="FLH3N4Q0RpkNor29CAH5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-11" value="Add event for &lt;br&gt;current file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FLH3N4Q0RpkNor29CAH5-10">
+          <mxGeometry x="-0.2667" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-8" value="Read current files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLH3N4Q0RpkNor29CAH5-12" target="FLH3N4Q0RpkNor29CAH5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-12" value="Lamda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLH3N4Q0RpkNor29CAH5-14" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
